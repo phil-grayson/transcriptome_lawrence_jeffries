@@ -1,0 +1,250 @@
+
+
+     ______  ____   ____  ____   ____  ______  __ __
+    |      ||    \ |    ||    \ |    ||      ||  |  |
+    |      ||  D  ) |  | |  _  | |  | |      ||  |  |
+    |_|  |_||    /  |  | |  |  | |  | |_|  |_||  ~  |
+      |  |  |    \  |  | |  |  | |  |   |  |  |___, |
+      |  |  |  .  \ |  | |  |  | |  |   |  |  |     |
+      |__|  |__|\_||____||__|__||____|  |__|  |____/
+
+    Trinity-v2.8.5
+
+
+
+Left read files: $VAR1 = [
+          'trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz'
+        ];
+Right read files: $VAR1 = [
+          'trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz',
+          'trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz',
+          'trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz'
+        ];
+Trinity version: Trinity-v2.8.5
+** NOTE: Latest version of Trinity is v2.9.1, and can be obtained at:
+	https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+Thursday, March 12, 2020: 15:57:54	CMD: java -Xmx64m -XX:ParallelGCThreads=2  -jar /home/pgrayson/programs/trinityrnaseq-2.8.5/util/support_scripts/ExitTester.jar 0
+Thursday, March 12, 2020: 15:57:54	CMD: java -Xmx4g -XX:ParallelGCThreads=2  -jar /home/pgrayson/programs/trinityrnaseq-2.8.5/util/support_scripts/ExitTester.jar 1
+Thursday, March 12, 2020: 15:57:55	CMD: mkdir -p /home/pgrayson/jefferies/lamprey/full_trinity_assembly
+Thursday, March 12, 2020: 15:57:55	CMD: mkdir -p /home/pgrayson/jefferies/lamprey/full_trinity_assembly/chrysalis
+
+
+----------------------------------------------------------------------------------
+-------------- Trinity Phase 1: Clustering of RNA-Seq Reads  ---------------------
+----------------------------------------------------------------------------------
+
+---------------------------------------------------------------
+------------ In silico Read Normalization ---------------------
+-- (Removing Excess Reads Beyond 200 Coverage --
+---------------------------------------------------------------
+
+# running normalization on reads: $VAR1 = [
+          [
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz'
+          ],
+          [
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz',
+            '/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz'
+          ]
+        ];
+
+
+Thursday, March 12, 2020: 15:57:55	CMD: /home/pgrayson/programs/trinityrnaseq-2.8.5/util/insilico_read_normalization.pl --seqType fq --JM 250G  --max_cov 200 --min_cov 1 --CPU 24 --output /home/pgrayson/jefferies/lamprey/full_trinity_assembly/insilico_read_normalization --max_CV 10000  --SS_lib_type FR  --left /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz --right /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz,/home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz --pairs_together --PARALLEL_STATS  
+-prepping seqs
+Converting input files. (both directions in parallel)CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz) >> left.fa
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_104---NEBNext_dual_i5_104.LN24-4G_R1.fastq.gz) >> right.fa
+CMD finished (131 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz) >> right.fa
+CMD finished (135 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_110---NEBNext_dual_i5_110.LTN6-9G_R1.fastq.gz) >> left.fa
+CMD finished (81 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz) >> right.fa
+CMD finished (81 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_112---NEBNext_dual_i5_112.LTN12-2G_R1.fastq.gz) >> left.fa
+CMD finished (235 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz) >> right.fa
+CMD finished (233 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_97---NEBNext_dual_i5_97.LN12-3G_R1.fastq.gz) >> left.fa
+CMD finished (138 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz) >> right.fa
+CMD finished (138 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_B4---NEBNext_dual_i5_B4.LC24-19G_R1.fastq.gz) >> left.fa
+CMD finished (56 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz) >> right.fa
+CMD finished (54 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C5---NEBNext_dual_i5_C5.LT6-8G_R1.fastq.gz) >> left.fa
+CMD finished (72 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz) >> right.fa
+CMD finished (73 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_C6---NEBNext_dual_i5_C6.LT12-7G_R1.fastq.gz) >> left.fa
+CMD finished (67 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz) >> right.fa
+CMD finished (70 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_E2---NEBNext_dual_i5_E2.LC12-6G_R1.fastq.gz) >> left.fa
+CMD finished (121 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz) >> left.fa
+CMD finished (125 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F6---NEBNext_dual_i5_F6.LT24-1G_R1.fastq.gz) >> right.fa
+CMD finished (76 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz) >> left.fa
+CMD finished (80 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_F7---NEBNext_dual_i5_F7.LN6-1G_R1.fastq.gz) >> right.fa
+CMD finished (60 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz) >> left.fa
+CMD finished (60 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.001.NEBNext_dual_i7_H1---NEBNext_dual_i5_H1.LC6-21G_R1.fastq.gz) >> right.fa
+CMD finished (123 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz) >> right.fa
+CMD finished (128 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_129---NEBNext_dual_i5_129.LC6-23L_R1.fastq.gz) >> left.fa
+CMD finished (141 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz) >> left.fa
+CMD finished (142 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_131---NEBNext_dual_i5_131.LC12-1L_R1.fastq.gz) >> right.fa
+CMD finished (120 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz) >> right.fa
+CMD finished (120 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_143---NEBNext_dual_i5_143.LC24-23L_R1.fastq.gz) >> left.fa
+CMD finished (141 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz) >> left.fa
+CMD finished (141 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_147---NEBNext_dual_i5_147.LT6-6L_R1.fastq.gz) >> right.fa
+CMD finished (70 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz) >> right.fa
+CMD finished (71 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_152---NEBNext_dual_i5_152.LT12-6L_R1.fastq.gz) >> left.fa
+CMD finished (119 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz) >> right.fa
+CMD finished (118 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_161---NEBNext_dual_i5_161.LT24-7L_R1.fastq.gz) >> left.fa
+CMD finished (107 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz) >> right.fa
+CMD finished (107 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_165---NEBNext_dual_i5_165.LN6-7L_R1.fastq.gz) >> left.fa
+CMD finished (99 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz) >> right.fa
+CMD finished (99 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_172---NEBNext_dual_i5_172.LN24-2L_R1.fastq.gz) >> left.fa
+CMD finished (79 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz) >> right.fa
+CMD finished (79 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_179---NEBNext_dual_i5_179.LTN6-8L_R1.fastq.gz) >> left.fa
+CMD finished (122 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz) >> right.fa
+CMD finished (122 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_187---NEBNext_dual_i5_187.LTN12-22L_R1.fastq.gz) >> left.fa
+CMD finished (121 seconds)
+CMD: seqtk-trinity seq -r -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz) >> right.fa
+CMD finished (121 seconds)
+CMD: seqtk-trinity seq -A <(gunzip -c /home/pgrayson/jefferies/lamprey/trim_NS.1271.002.NEBNext_dual_i7_F12---NEBNext_dual_i5_F12.LN12-7L_R1.fastq.gz) >> left.fa
+CMD finished (211 seconds)
+CMD finished (211 seconds)
+CMD: touch left.fa.ok
+CMD finished (0 seconds)
+CMD: touch right.fa.ok
+CMD finished (0 seconds)
+Done converting input files.CMD: cat left.fa right.fa > both.fa
+CMD finished (1821 seconds)
+CMD: touch both.fa.ok
+CMD finished (0 seconds)
+-kmer counting.
+-------------------------------------------
+----------- Jellyfish  --------------------
+-- (building a k-mer catalog from reads) --
+-------------------------------------------
+
+CMD: jellyfish count -t 24 -m 25 -s 100000000  both.fa
+CMD finished (3200 seconds)
+CMD: jellyfish histo -t 24 -o jellyfish.K25.min2.kmers.fa.histo mer_counts.jf
+CMD finished (164 seconds)
+CMD: jellyfish dump -L 2 mer_counts.jf > jellyfish.K25.min2.kmers.fa
+CMD finished (362 seconds)
+CMD: touch jellyfish.K25.min2.kmers.fa.success
+CMD finished (0 seconds)
+-generating stats files
+CMD: /home/pgrayson/programs/trinityrnaseq-2.8.5/util/..//Inchworm/bin/fastaToKmerCoverageStats --reads left.fa --kmers jellyfish.K25.min2.kmers.fa --kmer_size 25  --num_threads 12  > left.fa.K25.stats
+CMD: /home/pgrayson/programs/trinityrnaseq-2.8.5/util/..//Inchworm/bin/fastaToKmerCoverageStats --reads right.fa --kmers jellyfish.K25.min2.kmers.fa --kmer_size 25  --num_threads 12  > right.fa.K25.stats
+-reading Kmer occurrences...-reading Kmer occurrences...
+
