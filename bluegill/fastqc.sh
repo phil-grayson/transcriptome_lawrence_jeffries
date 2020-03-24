@@ -7,6 +7,8 @@
 #SBATCH -e fastqc.%A.err  # File to which STDERR will be written
 #SBATCH --account=def-docker
 
+# This was run on Graham
+
 module load fastqc
 
 for FILE in $(cat ${1}); do fastqc -f fastq $FILE; done
