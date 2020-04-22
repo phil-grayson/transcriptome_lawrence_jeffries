@@ -21,17 +21,11 @@
 - TransDecoder's output, `longest_orfs.pep`, is used throughout the trinotate pipeline <br/>
 - Prior to the blast runs, I used `split_fasta.pl` from [here](https://github.com/gmarnellos/Trinotate_example_supplement/blob/master/split_fasta.pl) to parallelize the blast runs for both `longest_orfs.pep` and `Trinity.fasta`
 
-- Blast arrays for bluegill: <br/>
+- Blast arrays: <br/>
 `sbatch --array=1-50 blastx.sh`<br/>
 `sbatch --array=1-32 blastp.sh`<br/>
 `cat blastx.vol.*.outfmt6 > blastx.bluegill.sprot.outfmt6`<br/>
 `cat blastp.vol.*.outfmt6 > blastp.bluegill.sprot.outfmt6`<br/>
-
-- Blast arrays for lamprey: <br/>
-`sbatch --array=1-61 blastx.sh`<br/>
-`sbatch --array=1-60 blastp.sh`<br/>
-`cat blastp.vol.*.outfmt6 > blastp.lamprey.sprot.outfmt6`<br/>
-`cat blastx.vol.*.outfmt6 > blastx.lamprey.sprot.outfmt6`<br/>
 
 - HMMER <br/>
 `sbatch hmmer.sh`<br/>
@@ -56,8 +50,8 @@
 
 - With everything run, it's time to collect them into the sqlite database for Trinotate<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite init --gene_trans_map Trinity.fasta.gene_trans_map --transcript_fasta Trinity.fasta --transdecoder_pep longest_orfs.pep`<br/>
-`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_swissprot_blastx blastx.lamprey.sprot.outfmt6`<br/>
-`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_swissprot_blastp blastp.lamprey.sprot.outfmt6`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_swissprot_blastx blastx.bluegill.sprot.outfmt6`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_swissprot_blastp blastp.bluegill.sprot.outfmt6`<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_pfam TrinotatePFAM.out`<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_tmhmm tmhmm.out`<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_signalp signalp.out`<br/>
