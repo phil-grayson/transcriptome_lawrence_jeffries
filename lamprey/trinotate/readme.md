@@ -21,13 +21,7 @@
 - TransDecoder's output, `longest_orfs.pep`, is used throughout the trinotate pipeline <br/>
 - Prior to the blast runs, I used `split_fasta.pl` from [here](https://github.com/gmarnellos/Trinotate_example_supplement/blob/master/split_fasta.pl) to parallelize the blast runs for both `longest_orfs.pep` and `Trinity.fasta`
 
-- Blast arrays for bluegill: <br/>
-`sbatch --array=1-50 blastx.sh`<br/>
-`sbatch --array=1-32 blastp.sh`<br/>
-`cat blastx.vol.*.outfmt6 > blastx.bluegill.sprot.outfmt6`<br/>
-`cat blastp.vol.*.outfmt6 > blastp.bluegill.sprot.outfmt6`<br/>
-
-- Blast arrays for lamprey: <br/>
+- Blast arrays: <br/>
 `sbatch --array=1-61 blastx.sh`<br/>
 `sbatch --array=1-60 blastp.sh`<br/>
 `cat blastp.vol.*.outfmt6 > blastp.lamprey.sprot.outfmt6`<br/>
