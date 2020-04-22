@@ -19,6 +19,38 @@
 `TransDecoder.LongOrfs -t Trinity.fasta &> log.txt &` <br/>
 
 - TransDecoder's output, `longest_orfs.pep`, is used throughout the trinotate pipeline <br/>
-- Prior to the blast runs, I used `split_fasta.pl` from [here](https://github.com/gmarnellos/Trinotate_example_supplement/blob/master/split_fasta.pl) to parallelize the blast runs for both longest_orfs.pep and `Trinity.fasta`
+- Prior to the blast runs, I used `split_fasta.pl` from [here](https://github.com/gmarnellos/Trinotate_example_supplement/blob/master/split_fasta.pl) to parallelize the blast runs for both `longest_orfs.pep` and `Trinity.fasta`
 
+- Blast arrays for bluegill: <br/>
+`sbatch --array=1-50 blastx.sh`<br/>
+`sbatch --array=1-32 blastp.sh`<br/>
+`cat blastx.vol.*.outfmt6 > blastx.bluegill.sprot.outfmt6`<br/>
+`cat blastp.vol.*.outfmt6 > blastp.bluegill.sprot.outfmt6`<br/>
+
+- Blast arrays for lamprey: <br/>
+`sbatch --array=1-61 blastx.sh`<br/>
+`sbatch --array=1-60 blastp.sh`<br/>
+`cat blastp.vol.*.outfmt6 > blastp.lamprey.sprot.outfmt6`<br/>
+`cat blastx.vol.*.outfmt6 > blastx.lamprey.sprot.outfmt6`<br/>
+
+- HMMER <br/>
+`sbatch hmmer.sh`<br/>
+
+- tmhmm <br/>
+`sbatch tmhmm.sh` <br/>
+
+- signalP <br/>
+`sbatch signalp.sh` <br/>
+
+- rnammer
+`sbatch rnammer.sh`
+- Of note, rnammer is incredibly memory intensive (502 Gb of the lamprey) and very difficult to get running.  Briefly: <br/>
+- Download rnammer [here](https://services.healthtech.dtu.dk/service.php?RNAmmer-1.2)
+- Download hmmer-2.3.2 [here](http://hmmer.org/download.html)
+- Edit the rnammer scripts as suggested [here](https://github.com/Trinotate/Trinotate.github.io/wiki/Software-installation-and-data-required) and [here](https://blog.karinlag.no/2013/10/rnammer-install/)
+- Perl might need modification.  On Compute Canada systems, you follow [this](https://docs.computecanada.ca/wiki/Perl)
+`module load perl/5.22.4`<br/>
+`module load gcc/5.4.0`<br/>
+`cpan`<br/>
+`cpan> install XML::Simple`<br/>
 
