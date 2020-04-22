@@ -45,12 +45,12 @@
 - rnammer
 `sbatch rnammer.sh`
 - Of note, rnammer is incredibly memory intensive (502 Gb of the lamprey) and very difficult to get running.  Briefly: <br/>
-- Download rnammer [here](https://services.healthtech.dtu.dk/service.php?RNAmmer-1.2)
-- Download hmmer-2.3.2 [here](http://hmmer.org/download.html)
-- Edit the rnammer scripts as suggested [here](https://github.com/Trinotate/Trinotate.github.io/wiki/Software-installation-and-data-required) and [here](https://blog.karinlag.no/2013/10/rnammer-install/)
-- Perl might need modification.  On Compute Canada systems, you follow [this](https://docs.computecanada.ca/wiki/Perl)
-`module load perl/5.22.4`<br/>
-`module load gcc/5.4.0`<br/>
-`cpan`<br/>
-`cpan> install XML::Simple`<br/>
+  - Download rnammer [here](https://services.healthtech.dtu.dk/service.php?RNAmmer-1.2)
+  - Download hmmer-2.3.2 [here](http://hmmer.org/download.html)
+  - Edit the rnammer scripts as suggested [here](https://github.com/Trinotate/Trinotate.github.io/wiki/Software-installation-and-data-required) and [here](https://blog.karinlag.no/2013/10/rnammer-install/)
+  - Perl might need modification.  On Compute Canada systems, you follow [this](https://docs.computecanada.ca/wiki/Perl) <br/>
+  `module load perl/5.22.4`<br/>
+  `module load gcc/5.4.0`<br/>
+  `cpan`<br/>
+  `cpan> install XML::Simple`<br/>
 
