@@ -44,7 +44,7 @@
 
 - rnammer
 `sbatch rnammer.sh`
-- Of note, rnammer is incredibly memory intensive (502 Gb of the lamprey) and very difficult to get running.  Briefly: <br/>
+- Of note, rnammer is incredibly memory intensive (502 Gb on the lamprey) and very difficult to get running.  Briefly: <br/>
   - Download rnammer [here](https://services.healthtech.dtu.dk/service.php?RNAmmer-1.2)
   - Download hmmer-2.3.2 [here](http://hmmer.org/download.html)
   - Edit the rnammer scripts as suggested [here](https://github.com/Trinotate/Trinotate.github.io/wiki/Software-installation-and-data-required) and [here](https://blog.karinlag.no/2013/10/rnammer-install/)
@@ -54,3 +54,12 @@
   `cpan`<br/>
   `cpan> install XML::Simple`<br/>
 
+- With everything run, it's time to collect them into the sqlite database for Trinotate<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite init --gene_trans_map Trinity.fasta.gene_trans_map --transcript_fasta Trinity.fasta --transdecoder_pep longest_orfs.pep`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_swissprot_blastx blastx.lamprey.sprot.outfmt6`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_swissprot_blastp blastp.lamprey.sprot.outfmt6`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_pfam TrinotatePFAM.out`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_tmhmm tmhmm.out`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_signalp signalp.out`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_rnammer Trinity.fasta.rnammer.gff`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite report > trinotate_annotation_report_lamprey_RF.xls`<br/>
