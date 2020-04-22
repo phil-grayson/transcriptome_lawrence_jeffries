@@ -36,7 +36,7 @@
 - signalP <br/>
 `sbatch signalp.sh` <br/>
 
-- rnammer
+- rnammer<br/>
 `sbatch rnammer.sh`
 - Of note, rnammer is incredibly memory intensive (502 Gb on the lamprey) and very difficult to get running.  Briefly: <br/>
   - Download rnammer [here](https://services.healthtech.dtu.dk/service.php?RNAmmer-1.2)
