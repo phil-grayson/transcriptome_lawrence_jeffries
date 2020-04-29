@@ -18,5 +18,5 @@
 
 
 - Corset output was then run through Lace to generate the superTranscriptome and annotation file
-	- `sbatch corset_full_bigMem_lamprey.sh`
+	- `sbatch lace.sh lamprey_lace_update`
 
