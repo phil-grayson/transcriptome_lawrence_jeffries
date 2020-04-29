@@ -11,8 +11,8 @@
 	- `for FILE in $(ls ../*bam); do sbatch corset_parallel.sh $FILE; sleep 0.1; done`
 
 - `corset-reads` files were used in two separate Corset runs.
-	- subset used only those 22 libraries that had been chosen for the initial transcriptome assembly <br\> 
-	- `sbatch corset_bigMem_subset.sh` <br\>
+	- subset used only those 22 libraries that had been chosen for the initial transcriptome assembly 
+	- `sbatch corset_bigMem_subset.sh` 
 	- full used all 148 libraries and required 1 month of runtime at 500 Gb of memory <br/>
 	- `sbatch corset_full_bigMem_lamprey.sh`
 
