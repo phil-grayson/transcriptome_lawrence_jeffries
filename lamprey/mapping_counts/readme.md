@@ -1,5 +1,8 @@
 # Scripts and workflow for STAR mapping and featureCounts
-- Everything here was carried out on Graham in April 2020
+- Everything here was carried out on Graham and Cedar in April 2020
+
+- STAR was used to generate an index
+	- `sbatch star_index.sh`
 
 - Trimmed reads were mapped back to the Lace superTranscriptome using STAR
 	- `ls *R1.f*.gz > files.txt` <br/>
