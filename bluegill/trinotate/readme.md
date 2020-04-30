@@ -56,4 +56,4 @@
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_tmhmm tmhmm.out`<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_signalp signalp.out`<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_rnammer Trinity.fasta.rnammer.gff`<br/>
-`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite report > trinotate_annotation_report_lamprey_RF.xls`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite report > trinotate_annotation_report_bluegill_RF.xls`<br/>
