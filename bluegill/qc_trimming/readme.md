@@ -9,7 +9,7 @@
 	- a few jobs required a little extra memory, so I generated a file list for those and submitted:
 	- `sbatch fastqc_mem.sh makeup`
 
-- I downloaded and installed MultiQC to collect all the important data from the 100's of resulting Fastqc files.
+- I downloaded and installed MultiQC to collect all the important data from the 100's of resulting Fastqc files and then ran
 	- `multiqc .`
 
 - To get trimmomatic to run, I needed a list of generic file names without R1 or R2.  I reduced my terminal width to only allow one file across and did:
