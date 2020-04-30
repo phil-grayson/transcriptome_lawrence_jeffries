@@ -9,10 +9,10 @@
 	- a few jobs required a little extra memory, so I generated a file list for those and submitted:
 	- `sbatch fastqc_mem.sh makeup`
 
-- I downloaded and installed MultiQC to collect all the important data from the 100's of resulting Fastqc files and then ran
+- I downloaded and installed MultiQC to collect all the important data from the 100's of resulting Fastqc files and then ran:
 	- `multiqc .`
 
-- To get trimmomatic to run, I needed a list of generic file names without R1 or R2.  I reduced my terminal width to only allow one file across and did:
+- To get trimmomatic to run, I needed a list of generic file names without R1 or R2.  I reduced my terminal width to only allow one file across and ran:
 	- `ls NS*R1*gz`
 	- I copied this list to BBEdit (Textwrangler) and used find/replace with grep to replace `1\.fastq\.gz` with nothing
 	- I copied the resulting list back onto the cluster as `files.txt`
