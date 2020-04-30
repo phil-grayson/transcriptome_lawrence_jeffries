@@ -9,6 +9,7 @@
 
 - Following the read mapping, Corset was run independently on each bam to generate a `corset-reads` file
 	- `for FILE in $(ls ../*bam); do sbatch corset_parallel.sh $FILE; sleep 0.1; done`
+	- for a few samples, the jobs hit the time limit or the memory limit. for these, I re-ran with `corset_parallel_big.sh`
 
 - `corset-reads` files were used in two separate Corset runs.
 	- subset used only those 26 libraries that had been chosen for the initial transcriptome assembly 
