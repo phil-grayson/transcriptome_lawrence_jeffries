@@ -59,4 +59,4 @@
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite report > trinotate_annotation_report_lamprey_RF.xls`<br/>
 
 - GO predictions were generated as follows<br/>
-`~/programs/Trinotate-Trinotate-v3.2.1/util/extract_GO_assignments_from_Trinotate_xls.pl --Trinotate_xls trinotate_annotation_report_bluegill_RF.xls -G --include_ancestral_terms > go_annotations_lamprey_RF.txt`
+`~/programs/Trinotate-Trinotate-v3.2.1/util/extract_GO_assignments_from_Trinotate_xls.pl --Trinotate_xls trinotate_annotation_report_lamprey_RF.xls -G --include_ancestral_terms > go_annotations_lamprey_RF.txt`
