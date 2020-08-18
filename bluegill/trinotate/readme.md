@@ -58,5 +58,6 @@
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite LOAD_rnammer Trinity.fasta.rnammer.gff`<br/>
 `~/programs/Trinotate-Trinotate-v3.2.1/Trinotate Trinotate.sqlite report > trinotate_annotation_report_bluegill_RF.xls`<br/>
 
-- GO annotations were predicted as follows:<br/>
-`~/programs/Trinotate-Trinotate-v3.2.1/util/extract_GO_assignments_from_Trinotate_xls.pl --Trinotate_xls trinotate_annotation_report_bluegill_RF.xls -G --include_ancestral_terms > go_annotations_bluegill_RF.txt`
+- GO annotations were predicted in both `Gene` and `Transcript` modes as follows:<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/util/extract_GO_assignments_from_Trinotate_xls.pl --Trinotate_xls trinotate_annotation_report_bluegill_RF.xls -G --include_ancestral_terms > go_annotations_bluegill_RF_gene.txt`<br/>
+`~/programs/Trinotate-Trinotate-v3.2.1/util/extract_GO_assignments_from_Trinotate_xls.pl --Trinotate_xls trinotate_annotation_report_bluegill_RF.xls -T --include_ancestral_terms > go_annotations_bluegill_RF_transcript.txt`
