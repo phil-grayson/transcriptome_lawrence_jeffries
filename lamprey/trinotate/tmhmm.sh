@@ -6,6 +6,6 @@
 #SBATCH -J tmhmm
 #SBATCH -o tmhmm_%j.out
 #SBATCH -e tmhmm_%j.err
-#SBATCH --account=def-coling_cpu
+#SBATCH --account=def-kmj477
 
 ~/programs/tmhmm-2.0c/bin/tmhmm --short < longest_orfs.pep > tmhmm.out

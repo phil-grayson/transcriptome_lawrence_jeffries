@@ -7,7 +7,7 @@
 #SBATCH --mem=125G            # Memory pool for all cores 
 #SBATCH -o Lace.%A.out       # File to which STDOUT will be written 
 #SBATCH -e Lace.%A.err       # File to which STDERR will be written 
-#SBATCH --account=def-docker_cpu
+#SBATCH --account=def-coling_cpu
 
 source ~/ENV3/bin/activate
 module load blat

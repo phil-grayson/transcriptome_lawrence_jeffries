@@ -6,6 +6,6 @@
 #SBATCH -J signalP
 #SBATCH -o sP_%j.out
 #SBATCH -e sP_%j.err
-#SBATCH --account=def-coling
+#SBATCH --account=def-kmj477
 
 ~/programs/signalp-4.1/signalp -f short -n signalp.out longest_orfs.pep

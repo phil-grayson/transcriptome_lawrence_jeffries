@@ -7,7 +7,7 @@
 #SBATCH --mem=125G            # Memory pool for all cores 
 #SBATCH -o Star_index.%A.out       # File to which STDOUT will be written 
 #SBATCH -e Star_index.%A.err       # File to which STDERR will be written 
-#SBATCH --account=def-docker_cpu
+#SBATCH --account=def-coling_cpu
 
 module load star
 
