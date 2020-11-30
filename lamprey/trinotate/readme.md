@@ -1,5 +1,5 @@
 # Trinotate scripts and walkthrough
-- Everything was carried out on Graham in April of 2020 with a locally installed Trinotate-Trinotate-v3.2.1 and modules <br/>
+- Everything was initally carried out on Graham in April of 2020 (redo in Oct/Nov) with a locally installed Trinotate-Trinotate-v3.2.1 and modules <br/>
 `wget https://github.com/Trinotate/Trinotate/archive/Trinotate-v3.2.1.tar.gz` <br/>
 `tar -xf Trinotate-v3.2.1.tar.gz`<br/>
 
